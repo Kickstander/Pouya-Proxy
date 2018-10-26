@@ -5,10 +5,12 @@
   "author": "",
   "license": "",
   "engines": {
-    "node": ">=6.13.0"
+    "node": ">=6.13.0",
+    "seed": "node db/seed.js"
   },
   "scripts": {
-    "server-dev": "nodemon server/server.js"
+    "server-dev": "nodemon server/server.js",
+    "seed": "nodemon db/seed.js"
   },
   "dependencies": {
     "express": "^4.16.4",
@@ -16,6 +18,8 @@
   },
   "devDependencies": {
     "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
+    "faker": "^4.1.0",
+    "moment": "^2.22.2",
     "nodemon": "^1.18.4"
   }
 }
