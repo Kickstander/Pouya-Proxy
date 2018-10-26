@@ -24,3 +24,5 @@ coverage
 build/
 dist/
 
+# Connection config file with authentication information
+db/connection.js
