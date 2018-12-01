@@ -14,5 +14,5 @@ app.get('/:campaignId', (req, res) => { // handle requests for a given campaign'
 });
 
 app.listen(port, () => {
-  console.log(`server running at: http://localhost:${port}`);
+  console.log(`server running`);
 });
